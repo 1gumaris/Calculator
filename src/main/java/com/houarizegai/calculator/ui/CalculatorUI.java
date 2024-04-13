@@ -163,7 +163,7 @@ public class CalculatorUI {
             for (int i = 0; i < (str.length() - 1); i++) {
                 str2.append(str.charAt(i));
             }
-            if (str2.toString().equals("")) {
+            if ("".equals(str2.toString())) {
                 inputScreen.setText("0");
             } else {
                 inputScreen.setText(str2.toString());
